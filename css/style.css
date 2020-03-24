@@ -1,0 +1,178 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor{
+  display:flex;
+ justify-content: space-between;
+}
+.header-principal ul{
+  display:flex;
+}
+
+.header-principal ul li{
+  list-style: none;
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+a {
+   text-decoration: none;
+   color:white;
+ }
+a:hover{
+  color:#4B6254;
+}
+
+.sindeco{
+   text-decoration: none;
+   color:white;
+}
+.contenedor{
+  max-width: 1280px;
+  width:90%;
+  margin: auto;
+}
+.header-principal{
+  background: url(../imagenes/portada.jpg); /*Colocar foto de portada*/
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo-flex{
+  display:flex;
+  justify-content: center;
+  margin:27vh 0;
+  max-width: 1580px;
+  width:100%;
+}
+h1{
+  font-size:60px;
+  color:#fff;
+  margin:0;
+  }
+h2{
+  font-size: 25px;
+  color:#fff;
+}
+.contenedor-titulo{
+  text-align: center;
+}
+
+.contenedor-titulo a{
+  font-size: 14px;
+  color:#fff;
+  background: #5cb8ff;
+  padding:14px 24px;
+  width:128px;
+  display: inline-block;
+}
+
+p.logo {
+  color:#fff;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color:#fff;
+}
+/*______________________________________brasil________________________________*/
+h3{
+  font-size: 40px;
+  text-align: center;
+  margin-top:60px;
+}
+.flex-section{
+  display: flex;
+  justify-content: space-around;
+}
+#foto-brasil{
+  width:80vh;
+}
+.foto{
+  display: flex;
+  align-items: center;
+}
+.texto{
+  display:flex;
+  align-items: center;
+  width:60vh;
+}
+
+/*______________________________________uruguay________________________________*/
+#foto-uruguay{
+  width: 80vh;
+}
+/*______________________________________iguazu________________________________*/
+#foto-iguazu{
+  width:80vh;
+}
+/*________________________________________Footer______________________________*/
+.foot{
+  background-color: #2f3236;
+  display:flex;
+  justify-content: space-between;
+  color:white;
+  padding: 0 30px;
+  margin-top:50px;
+}
+.logo-foot p{
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.list-foot{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.list-foot li{
+  display: flex;
+  margin-left:20px;
+  align-items: center;
+}
+
+/*________________________________nosotros____________________________________*/
+
+.header-nos{
+  background-color:#2f3236;
+  display:flex;
+  justify-content: space-between;
+  color:white;
+}
+.logo-nos{
+  display:flex;
+  align-items: center;
+}
+.logo-nos p{
+  font-size: 25px;
+  margin:0;
+}
+.list-nos{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin:13px;
+}
+.list-nos li{
+  display: flex;
+  margin-left:20px;
+  align-items: center;
+}
+
+.h1-nosotros{
+  font-size: 40px;
+  text-align: center;
+  color:#000000;
+  margin:15px;
+}
+.img-nos{
+  width:50vh;
+}
+
+.text-nos{
+  width:120vh;
+}
